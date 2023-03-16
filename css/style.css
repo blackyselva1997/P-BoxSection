@@ -1,0 +1,74 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.container {
+	width: 50%;
+	margin: auto;
+}
+.row {
+	display: flex;
+}
+.col {
+	position: relative;
+}
+.col1 {
+	position: absolute;
+    bottom: -90px;
+    left: 400px;
+    right: 470px;
+    background: linear-gradient(360deg, rgb(92, 118, 141) 0%, rgba(92, 118, 141, 0.9) 35%, rgba(140, 167, 191, 0.8) 100%);
+    padding: 20px 10px;
+    border-radius: 7px;
+	text-align: center;
+	font-size: 30px;
+}
+h1 {
+	padding-bottom: 10px;
+	font-size: 20px;
+	color: black;
+}
+.team {
+	text-align: center;
+}
+h4::after {
+	content: "";
+	position: absolute;
+	display: block;
+	margin-top: 40px;
+	width: 90px;
+	height: 90px;
+	color: blue;
+	right: 60%;
+}
+hr {
+	width: 80px;
+	position: absolute;
+	left: 200px;
+}
+.icon {
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	cursor: pointer;
+	justify-content: space-evenly;
+}
+img {
+	max-width: 100%;
+}
+.fa-twitter:hover{
+	color: red;
+}
+.face:hover{
+	color: #192de3;
+}
+.insta:hover{
+	color: #e01d27;
+}
+.link:hover{
+	color: blue;
+}
+@media () {
+
+}
